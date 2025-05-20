@@ -1,7 +1,7 @@
 void main() {
-  //variable
+  //variable reservada que se puede cambiar
   var nombre = "Jamesito";
-  //constante
+  //constante que no se peude cambiar el dato
   const velocidadLuz = "4500";
   //final
   final luzFinal = "4500";

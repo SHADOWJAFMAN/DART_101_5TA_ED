@@ -13,4 +13,8 @@ void main() {
   print(ultimoElemento);
 
   print(lista01[3]);
+
+  lista01.add("misil");
+  print(lista01);
+  print(lista01[2]);
 }

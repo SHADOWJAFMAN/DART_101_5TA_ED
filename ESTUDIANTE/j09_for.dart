@@ -41,4 +41,22 @@ void main() {
     return 'hola';
   });
   print(x);
+  //return : regresar algo valor o nada: funciones
+  //continue : saltar algo : for, do , while
+  //break : romper un ciclo
+  for (var i = 0; i < 5; i++) {
+    // cuando el valir de i  sea 1 no quiero q se imprima
+    //utilizamos el continue el ciclo for  continua solo se salta el espacio que declaramos
+
+    if (i == 1) {
+      continue;
+    }
+
+    //cuando llegue a tres solo queremos que llegue ahi
+    if (i == 3) {
+      print("valor es:$i");
+      break; //return
+    }
+    print("valor es:$i");
+  }
 }
